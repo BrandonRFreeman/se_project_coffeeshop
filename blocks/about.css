@@ -27,7 +27,7 @@
 .about__paragraph {
   display: flex;
   margin: 0 0 20px;
-  font-family: "Noto Serif"; "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,7 +42,7 @@
   display: flex;
   width: 426px;
   height: 426px;
-  background-color: #47bbff;
+  background-color: #2f80ed;
   border-radius: 50%;
   z-index: 1;
   position: absolute;

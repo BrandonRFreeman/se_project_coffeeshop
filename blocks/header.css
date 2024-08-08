@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -6,8 +7,11 @@
   display: flex;
   flex-direction: column;
   background-image: url(../images/background_header.svg);
-  z-index: 1;
+  z-index: -1;
   box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+}
 
 .header__span-accent {
   max-width: 729px;
@@ -23,7 +27,7 @@
 
 .header__title {
   display: block;
-  font-family: "Inter"; Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -53,16 +57,20 @@
 
 .header__paragraph {
   margin: 0;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
-  z-index: 1;
   position: absolute;
-  max-width: 568px;
-  max-height: 646px;
+  width: 646px;
+  height: 568px;
   top: 124px;
   right: 5px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .nav__link {
