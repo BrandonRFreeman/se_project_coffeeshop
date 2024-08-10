@@ -20,6 +20,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
 }
 
 .nav__link {
@@ -31,8 +32,3 @@
 .nav__link:hover {
   color: #2f80ed;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  }

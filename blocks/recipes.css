@@ -12,7 +12,9 @@
   line-height: 52px;
   max-width: 580px;
   color: white;
+  margin-top: 0;
   margin-bottom: 24px;
+
 
 }
 
@@ -24,6 +26,7 @@
   line-height: 30px;
   max-width: 438px;
   color: white;
+  margin-top: 0;
   margin-bottom: 80px;
 
 }
@@ -49,9 +52,5 @@
   font-size: 20px;
   line-height: 30px;
   color: white;
-}
-
-* {
   margin: 0;
-  padding: 0;
-  }
+}
